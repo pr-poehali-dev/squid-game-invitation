@@ -14,15 +14,10 @@ const Index = () => {
         <Button
           asChild
           size="lg"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+          className="bg-[#f7418f] hover:bg-[#e63780] text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl"
         >
-          <a
-            href="https://en.wikipedia.org/wiki/Squid_Game"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2"
-          >
-            <Icon name="ExternalLink" size={20} />
+          <a href="/betting" className="flex items-center gap-2">
+            <Icon name="GamepadIcon" size={20} />
             Играть в Кальмар
           </a>
         </Button>
