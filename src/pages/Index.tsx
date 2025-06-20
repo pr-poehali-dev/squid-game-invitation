@@ -17,13 +17,13 @@ const Index = () => {
           className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
         >
           <a
-            href="https://poehali.dev"
+            href="https://en.wikipedia.org/wiki/Squid_Game"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2"
           >
             <Icon name="ExternalLink" size={20} />
-            Перейти на сайт
+            Играть в Кальмар
           </a>
         </Button>
       </div>
